@@ -16,7 +16,7 @@ export default function Navbar() {
         <>
             <header style={{ backgroundColor: cover ? "blue" : "transparent" }} className="w-full border-b fixed flex justify-center items-center h-16">
                 <div className="w-2/3 flex justify-between items-center">
-                    <Link href="/" className="sm:text-3xl">Rusty Trim</Link>
+                    <Link href="/" className="sm:text-2xl">Rusty Trim</Link>
                     <nav className="hidden sm:flex gap-10 text-lg items-center">
                         <Link href={"/projects"}>About</Link>
                         <Link href={"/projects"}>Projects</Link>
